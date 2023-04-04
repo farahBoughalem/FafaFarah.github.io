@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Winestone</title>
+    <link rel="shortcut icon" href="images/shortcut icon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="stylesindex.css" />
+  </head>
+  <body>
+    <header>
+      <img id="logo" src="images/logo.png" />
+      <nav>
+        <ul>
+          <li class="home"><a id="homeLink" href="index.html">Home</a></li>
+          <li class="Menu"><a id="menuLink" href="Menu.html">Menu</a></li>
+          <li class="ContactUs">
+            <a id="contactLink" href="Contact.html">Contact us</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="slideshow">
+        <img
+          class="mySlides"
+          src="images/slideshow img1.jpg"
+          style="width: 100%"
+        />
+        <img
+          class="mySlides"
+          src="images/slideshow img2.jpg"
+          style="width: 100%"
+        />
+        <img
+          class="mySlides"
+          src="images/slideshow img3.jpg"
+          style="width: 100%"
+        />
+        <img
+          class="mySlides"
+          src="images/slideshow img4.jpg"
+          style="width: 100%"
+        />
+      </div>
+      <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+          myIndex++;
+          if (myIndex > x.length) {
+            myIndex = 1;
+          }
+          x[myIndex - 1].style.display = "block";
+          setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+      </script>
+      <div id="checkTheMenu">
+        <h2 class="name">Winestone Warszawa Powisle</h2>
+        <p id="description">
+          <em>WineStone</em> impresses its customers with a wide selection of
+          wines from around the world and the unusual taste of dishes served on
+          stone boards.
+        </p>
+        <div class="buttondiv">
+          <button class="button">
+            <a href="Menu.html" id="checkTheMenuLink" target="_blank"
+              >Check the Menu</a
+            >
+          </button>
+        </div>
+      </div>
+      <div id="businessLunch">
+        <h3 id="lastUpdates">LAST UPDATES</h3>
+        <h2 class="BusinessLunch">Business Lunch</h2>
+        <h3 class="DailySpecials">Daily Specials</h3>
+        <p><span class="label pink">Monday-Friday 12:00-17:00</span></p>
+        <p class="likeli">
+          Soup of the day + 4 main dishes to choose from during the week + water
+          in a carafe
+        </p>
+        <p><span class="label blue">Soup of the day</span></p>
+        <ul>
+          <li>Monday White Borscht</li>
+          <li>Tuesday Minestrone Soup</li>
+          <li>Wednesday Cream of White Vegetables</li>
+          <li>Thursday Flasks with Shingles</li>
+          <li>Friday Corn Soup</li>
+        </ul>
+        <p><span class="label yellow">Main Course to Choose From</span></p>
+        <ul>
+          <li>
+            Baked white sausage with onion sauce, mashed potatoes, cucumber
+            salad
+          </li>
+          <li>Ham roast, horseradish sauce, buchwheat, salad mix</li>
+          <li>
+            Dumplings with cabbage and mushrooms, sauce with dried mushrooms
+          </li>
+          <li>
+            Salad with roasted Camembert cheese, beets, egg, cumcumber,
+            vinegrette, Cranberries, Iniane seed
+          </li>
+        </ul>
+      </div>
+      <div id="liveMusic">
+        <div class="MusicianImg">
+          <img id="Musician" src="images/LiveMusic.jpg" />
+        </div>
+        <div class="invitation">
+          <h2>You're Invited!</h2>
+          <p>We usually host Live Music concerts.</p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div id="footer">
+        <div class="FindUs">
+          <h2>Find Us</h2>
+          <ul>
+            <li>
+              <i class="fa-solid fa-location-dot"></i>
+              <a
+                class="location"
+                href="https://www.google.com/search?q=ibis+Styles+Warszawa+Centrum&ludocid=9700785355335934489&gsas=1&lsig=AB86z5VgTG3yYYdZiGlPfFGmgU71&sa=X&ved=2ahUKEwjX2urDg47-AhXSwosKHRqkAyEQ8G0oAHoECGYQAQ&biw=1280&bih=560&dpr=2"
+                target="_blank"
+                >ibis Styles Warszawa Centrum</a
+              >
+            </li>
+            <li>
+              <i class="fa-solid fa-location-crosshairs"></i>Zagórna 1a, 00-441
+              Warsaw
+            </li>
+            <li><i class="fa-solid fa-phone"></i>22 211 84 00</li>
+          </ul>
+        </div>
+        <div class="OpenHours">
+          <h2>Open Hours</h2>
+          <ul>
+            <li>Monday-Sunday</li>
+            <li>12:00-23:00</li>
+          </ul>
+        </div>
+        <div class="SocialMedia">
+          <h2>Social Media</h2>
+          <a
+            href="https://www.facebook.com/WinestoneWarszawaCentrum/?locale=pl_PL"
+            target="_blank"
+            ><i class="fa-brands fa-square-facebook"></i
+          ></a>
+          <a href="https://www.instagram.com/winestone_powisle/" target="_blank"
+            ><i class="fa-brands fa-square-instagram"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,253 @@
+html{
+    box-sizing: border-box;
+}
+.mySlides {
+    display:none;
+}
+#logo{
+    height: 50px;
+    padding-left: 5%;
+}
+header {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 80px;
+    height: 90%;
+    margin-right: 120px;
+  }
+  nav > ul > li {
+    color: #fd2f68;
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    display: block;
+    font-family: 'Secular One', sans-serif;
+    font-size: 25px;
+  }
+  #homeLink{
+    text-decoration: none;
+    border-bottom: 4px solid #dfdfe2;
+    color: #dfdfe2;
+  }
+  
+  main{
+    margin-top: 60px;
+    font-family: 'Secular One', sans-serif;
+  }
+  .slideshow{
+    width: 101%;
+    margin-left: -8px;
+    padding-left: -8px;
+  }
+  #checkTheMenu{
+    margin-top: -50px;
+    background-color: white;
+    position: absolute;
+    top: 680px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 0;
+  }
+  .name{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: #183153;
+    margin-bottom: 18px;
+  }
+  #description{
+    
+    color: #183153;
+    width: 70%;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+ }
+ #menuLink, #contactLink{
+  text-decoration: none;
+  color: #fd2f68;
+}
+ button{
+    background-color: #fd2f68;
+    font-family: 'Secular One', sans-serif;
+    color: #183153;
+    border-radius: 15px;
+    padding: 13px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    outline: none;
+    border: 4px solid #183153;
+    box-shadow: 0 7px #183153;
+ }
+ button:hover{
+    background-color: #d82859;
+ }
+ .button:active {
+    background-color: #d82859;
+    box-shadow: 0 5px #11233c;
+    transform: translateY(4px);
+  }
+ .buttondiv{
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+ }
+ #checkTheMenuLink{
+  text-decoration: none;
+  color: #183153;
+ }
+  #businessLunch{
+    margin-top: -50px;
+    background-color: #f0f1f3;
+    position: absolute;
+    top: 987px;
+    left: 0;
+    right: 0;
+    width: 93.5%;
+    z-index: 0;
+    padding-left: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #lastUpdates{
+    font-family: 'Secular One', sans-serif;
+    color: #146ebe;
+    font-size: 25px;
+    letter-spacing: 5px;
+    margin-bottom: -15px;
+  }
+  .BusinessLunch{
+    font-family: 'Varela Round', sans-serif;
+    color: #183153;
+    font-size: 50px;
+  }
+  .DailySpecials{
+    font-weight: normal;
+    color: #707788;
+    margin-top: -40px;
+    font-size: 25px;
+  }
+  .label{
+    border-radius: 6px;
+    padding: 8px 13px;
+    color: #183153;
+    font-family: 'Varela Round', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .pink{
+    background-color: #e599f7;
+  }
+  .yellow{
+    background-color: #ffd43b;
+  }
+  .blue{
+    background-color: #74c0fc;
+  }
+  #businessLunch > ul > li, .likeli{
+    color: #183153;
+    font-weight: normal;
+    padding-top: 8px;
+    font-size: 17px;
+  }
+  #businessLunch > ul > li:first-of-type, .likeli{
+    margin-top: -9px;
+  }
+  #businessLunch > ul > li:last-of-type, .likeli{
+    margin-bottom: 30px;
+  }
+  #liveMusic{
+    margin-top: -50px;
+    background-color: white;
+    position: absolute;
+    top: 1750px;
+    left: 0;
+    right: 0;
+    width: 93.5%;
+    z-index: 0;
+    padding-left: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    gap: 50px;
+  }
+  #Musician{
+    border-radius: 10px;
+    height: 555px;
+    box-shadow: 0 7px #c3c6d1;
+  }
+  #Musician:hover{
+    box-shadow: 0 7px #63e6be;
+  }
+  .invitation > h2{
+    font-family: 'Secular One', sans-serif;
+    color: #10dc9f;
+    font-size: 40px;
+    letter-spacing: 5px;
+    margin-bottom: -5px;
+  }
+  .invitation > p{
+    font-size: 20px;
+  }
+  .invitation{
+    padding-top: 100px;
+    padding-left: 85px;
+  }
+  #footer{
+    margin-top: -50px;
+    background-color: black;
+    position: absolute;
+    top: 2375px;
+    left: 0;
+    right: 0;
+    width: 93.5%;
+    z-index: 0;
+    padding-left: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-family: 'Secular One', sans-serif;
+    display: flex;
+    gap: 20%;
+  }
+  .FindUs > ul{
+    list-style: none;
+    margin-left: -37px;
+  }
+  .FindUs > h2, .OpenHours > h2, .SocialMedia > h2{
+    border-bottom: 2px solid #fd2f68;
+  }
+  .fa-solid{
+    color: white;
+    margin-right: 10px;
+  }
+  .OpenHours > ul{
+    list-style: none;
+    margin-left: -37px;
+  }
+  .OpenHours > ul > li{
+    font-size: 20px;
+  }
+  .fa-square-facebook, .fa-square-instagram, .location{color: white;}
+  .fa-square-facebook, .fa-square-instagram{
+    font-size: 50px;
+  }
+  .fa-square-facebook:hover, .fa-square-instagram:hover{
+    color: #fd2f68;
+  }
+  .fa-square-facebook{
+    margin-right: 20px;
+    margin-left: 20px;
+  }

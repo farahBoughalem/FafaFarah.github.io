@@ -1,0 +1,245 @@
+html{
+    box-sizing: border-box;
+}
+#logo{
+    height: 50px;
+    padding-left: 5%;
+}
+header {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 80px;
+    height: 90%;
+    margin-right: 120px;
+  }
+  nav > ul > li {
+    color: #fd2f68;
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    display: block;
+    font-family: 'Secular One', sans-serif;
+    font-size: 25px;
+  }
+  #menuLink{
+    text-decoration: none;
+    border-bottom: 4px solid #dfdfe2;
+    color: #dfdfe2;
+  }
+  #homeLink, #contactLink{
+    text-decoration: none;
+    color: #fd2f68;
+  }
+  main{
+    margin-top: 60px;
+    font-family: 'Secular One', sans-serif;
+    background-color: black;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding-bottom: 8px;
+  }
+  .type{
+    color: white;
+    font-family: 'Secular One', sans-serif;;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-left: 4.5%;
+    margin-bottom: -10px;
+    margin-top: 5px;
+    text-transform: uppercase;
+  }
+  .dish{
+    background-color: white;
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #11233c;
+    padding: 4px 20px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+
+  }
+  #dish-name{
+    font-size: 30px;
+  }
+  #dish-desc{
+    font-family: 'Varela Round', sans-serif;
+    margin-top: -20px;
+    margin-bottom: -5px;
+    width: 90%;
+  }
+  #dish-price{
+    font-size: 25px;
+  }
+  .typeimg{
+    width: 91%;
+    height: 170px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    margin-top: 70px;
+  }
+  .bluetxt{
+    color: #74c0fc;
+  }
+  .blue{
+    border: 3px solid #74c0fc;
+    box-shadow: 0 7px #74c0fc;
+  }
+  .blue:hover{
+    background-color: whitesmoke;
+    border: 3px solid #146ebe;
+    box-shadow: 0 7px #146ebe;
+  }
+
+  .pinktxt{
+    color: #e599f7;
+  }
+  .pink{
+    border: 3px solid #e599f7;
+    box-shadow: 0 7px #e599f7;
+  }
+  .pink:hover{
+    background-color: whitesmoke;
+    border: 3px solid #9c36b5;
+    box-shadow: 0 7px #9c36b5;
+  }
+
+  .yellowtxt{
+    color: #ffd43b;
+  }
+  .yellow{
+    border: 3px solid #ffd43b;
+    box-shadow: 0 7px #ffd43b;
+  }
+  .yellow:hover{
+    background-color: whitesmoke;
+    border: 3px solid #fab005;
+    box-shadow: 0 7px #fab005;
+  }
+
+  .greentxt{
+    color: #63e6be;
+  }
+  .green{
+    border: 3px solid #63e6be;
+    box-shadow: 0 7px #63e6be;
+  }
+  .green:hover{
+    background-color: whitesmoke;
+    border: 3px solid #0ca678;
+    box-shadow: 0 7px #0ca678;
+  }
+
+  .purpletxt{
+    color: #b197fc;
+  }
+  .purple{
+    border: 3px solid #b197fc;
+    box-shadow: 0 7px #b197fc;
+  }
+  .purple:hover{
+    background-color: whitesmoke;
+    border: 3px solid #6741d9;
+    box-shadow: 0 7px #6741d9;
+  }
+
+  .orangetxt{
+    color: #ff8787;
+  }
+  .orange{
+    border: 3px solid #ff8787;
+    box-shadow: 0 7px #ff8787;
+  }
+  .orange:hover{
+    background-color: whitesmoke;
+    border: 3px solid #e03131;
+    box-shadow: 0 7px #e03131;
+  }
+
+  .graytxt{
+    color: #c3c6d1;
+  }
+  .gray{
+    border: 3px solid #c3c6d1;
+    box-shadow: 0 7px #c3c6d1;
+  }
+  .gray:hover{
+    background-color: whitesmoke;
+    border: 3px solid #7f8a9f;
+    box-shadow: 0 7px #7f8a9f;
+  }
+
+  .browntxt{
+    color: #914c33;
+  }
+  .brown{
+    border: 3px solid #914c33;
+    box-shadow: 0 7px #914c33;
+  }
+  .brown:hover{
+    background-color: whitesmoke;
+    border: 3px solid #6d3926;
+    box-shadow: 0 7px #6d3926;
+  }
+  .orange > ul >li{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 17px;
+  }
+  .orange > ul{
+    margin-top: -13px;
+  }
+
+  #footer{
+    background-color: black;
+    margin: -8px;
+    color: white;
+    font-family: 'Secular One', sans-serif;
+    display: flex;
+    gap: 20%;
+  }
+  .FindUs > ul{
+    list-style: none;
+    margin-left: -37px;
+  }
+  .FindUs > h2, .OpenHours > h2, .SocialMedia > h2{
+    border-bottom: 2px solid #fd2f68;
+  }
+  .fa-solid{
+    color: white;
+    margin-right: 10px;
+  }
+  .OpenHours > ul{
+    list-style: none;
+    margin-left: -37px;
+  }
+  .OpenHours > ul > li{
+    font-size: 20px;
+  }
+  .fa-square-facebook, .fa-square-instagram, .location{color: white;}
+  .fa-square-facebook, .fa-square-instagram{
+    font-size: 50px;
+  }
+  .fa-square-facebook:hover, .fa-square-instagram:hover{
+    color: #fd2f68;
+  }
+  .fa-square-facebook{
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .FindUs{
+    margin-left: 5%;
+  }
